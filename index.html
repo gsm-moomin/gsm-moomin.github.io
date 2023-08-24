@@ -15,7 +15,7 @@
             font-family: Arial, sans-serif;
         }
         #deleteButton {
-            margin-bottom: 10px;
+            margin-top: 20px;
             font-size: 16px;
             padding: 5px 10px;
             cursor: pointer;
@@ -52,14 +52,14 @@
             outline: none;
         }
         #output {
-            margin-top: 20px;
-            font-size: 28px;
+            margin-bottom: 20px;
+            font-size: 40px;
             text-align: center;
         }
     </style>
 </head>
 <body>
-    <button id="deleteButton">Delete</button>
+    <div id="output"></div>
     <div id="circle">
         <button class="arrow-button" id="upArrow" style="color: #D060C4">&#8679;</button>
         <div>
@@ -69,8 +69,8 @@
         </div>
         <button class="arrow-button" id="downArrow" style="color: #DB6799">&#8681;</button>
     </div>
+    <button id="deleteButton">Delete</button>
 
-    <div id="output"></div>
 
     <script>
         const outputDiv = document.getElementById('output');
